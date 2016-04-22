@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   font-family: "Roboto", Arial, sans-serif; 
+   font-weight: 100;
+   background-color: #333333;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#heading {
+	 font-family: 'Lobster'; 
+	 font-size: 85px;
+	 color: #fff;
+	 text-align: center;
+}
+
+#calculator {
+  margin: 80px auto 150px;
+  padding: 0;
+  height: 500px;
+  width: 308px;
+  background-color: black;
+	 box-shadow: 5px 5px 10px 3px #262626;
+}
+
+#display {
+	  height: 90px;
+	  width: 283px;
+	  color: #fff;
+	  font-family: Roboto;
+	  font-size: 65px;
+	  font-weight: 100;
+	  overflow: hidden;
+	  background-color: black;
+	  border: none;
+	  text-align: right;
+}
+
+input[type="text"] {
+	 padding: 25px 15px 0 10px;
+}
+
+a {
+	 cursor: pointer;
+	 text-decoration: none;
+	 user-select: none;
+}
+
+#keypad a:active {
+	 background-color: #ccc;
+}
+
+#keypad a.top:active {
+	 background-color: #bfbfbf;
+}
+
+#keypad a {
+	 display: inline-block;
+	 float: left;
+	 color: #000;
+	 height: 41px;
+	 width: 75px;
+	 border: 1px solid black;
+	 text-align: center;
+	 vertical-align: middle;
+	 font-size: 36px;
+	 transition: background-color 0.5s ease;
+	 background-color: #f2f2f2;
+	 padding: 17px 0;
+}
+
+#keypad a.right {
+	 transition: background-color 0.5s ease;
+	 background-color: #ff9900;
+	 color: #fff;
+}
+
+#keypad a.right:active {
+	 background-color: #ff8000;
+}
+
+#keypad a.top {
+	 transition: background-color 0.5s ease;
+	 background-color: #d9d9d9;
+}
+
+a#zero {
+	 width: 152px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
