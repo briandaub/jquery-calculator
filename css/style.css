@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,300);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
-html, * {
+* {
   margin: 0;
   padding: 0;
 }
@@ -71,7 +71,6 @@ a {
 	 height: 41px;
 	 width: 75px;
 	 border: 1px solid black;
-	 box-sizing: border-box;
 	 text-align: center;
 	 vertical-align: middle;
 	 font-size: 36px;
@@ -95,7 +94,7 @@ a {
 	 background-color: #d9d9d9;
 }
 
-#zero {
+a#zero {
 	 width: 152px;
 }
 
